@@ -1,0 +1,41 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(To  right, #3b6879,#78adc2,#3f687d);
+    height: 100vh;
+    position: relative;
+
+}
+
+.app main{
+position: absolute;
+top: 45%;
+left: 50%;
+transform: translate(-50%,-50%);
+ 
+height: 50rem;
+width: 80rem;
+
+padding: 1rem;
+
+/* border: 1px solid yellow; */
+
+
+}
+
+@media only screen and (max-width:900px) {
+   .app main{ width: 70rem;}
+}
+@media only screen and (max-width:750px) {
+   .app main{ width: 60rem;}
+}
+
+@media only screen and (max-width:650px) {
+   .app main{ width: 50rem;}
+}
+@media only screen and (max-width:600px) {
+   .app main{ width: 40rem;}
+}
+@media only screen and (max-width:400px) {
+   .app main{ width: 35rem;}
+}

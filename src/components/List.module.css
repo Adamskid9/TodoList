@@ -1,0 +1,38 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+
+
+    list-style: none;
+    margin-top: 2rem;
+
+    background-color: #96bf65;
+
+    padding: 1rem;
+
+    font-size: var(--fontNormal);
+    font-weight: 800;
+}
+
+.delete{
+    cursor: pointer;
+    color:#c41c22;
+    font-family: monospace;
+}
+.delete:hover{
+    transition: all .2s;
+    color: #f1f1f1;
+}
+
+.text{
+    color: #254432;
+    letter-spacing: 1px;
+    font-family:cursive
+}
+
+@media only screen and (max-width:600px) {
+  .list{
+    margin-top: 1rem;
+  }
+ 
+  }

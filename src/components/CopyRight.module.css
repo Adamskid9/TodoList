@@ -1,0 +1,32 @@
+.copyRight{
+    width: 100%;
+    background-image: linear-gradient(To  right, #3b6879,#78adc2,#3f687d);
+    text-align: center;
+    /* margin-top: ; */
+
+    padding: 2rem;
+
+}
+
+.name{
+    color: #f1f1f1;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-left:5px solid green;
+    padding-left: 5px;
+    background-color:#dd3524;
+    padding: 1rem;
+
+    font-family: sans-serif;
+
+
+}
+@media only screen and (max-width:600px) {
+   .copyRight{
+    padding: 1rem;
+   }
+   .name{
+    padding: .7rem;
+   }
+
+ }

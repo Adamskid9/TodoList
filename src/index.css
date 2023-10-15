@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5% ;
+}
+
+:root{
+    --fontSmall:1.3rem;
+    --G-color:#f1f1f1;
+    --fontNormal:1.6rem;
+
+}
+
+.filter{
+    filter: invert(100%);
+    transition: all .5s;
+}
+
+
+
+

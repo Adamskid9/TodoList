@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 2.3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.todo{
+    color: #dd3524;
+    font-size: 3rem;
+    font-family: cursive;
+}
+.mode{
+ cursor: pointer;
+}

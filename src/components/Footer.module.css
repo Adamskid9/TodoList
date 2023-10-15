@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+    font-weight: 600;
+    font-size: var(--fontNormal);
+    
+    text-transform: uppercase;
+    color: #254432;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.footer>*:hover{
+    color:#f1f1f1;
+}
+
+
+@media only screen and (max-width:600px) {
+    .footer{ 
+        font-size:1.1rem;
+        margin-top: 1rem;
+    }
+ }
