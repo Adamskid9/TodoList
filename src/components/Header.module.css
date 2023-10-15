@@ -10,7 +10,7 @@
 .todo{
     color: #dd3524;
     font-size: 3rem;
-    font-family: cursive;
+    font-family: monospace;
 }
 .mode{
  cursor: pointer;

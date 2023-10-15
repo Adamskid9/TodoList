@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useTodo } from '../Contexts/TodoContext'
 import styles from './List.module.css'
 
