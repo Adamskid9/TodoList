@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import styles from './Header.module.css'
 import Sun from "./Sun";
 import Moon from "./Moon";
+import {Link} from "react-router-dom";
+
 
 function Header() {
     const [mode,setMode] = useState(true);
@@ -15,6 +17,7 @@ function Header() {
      }
     return (
         <div className={styles.header}>
+            <Link to={"test"} className={styles.todo}>next page</Link>
             <span className={styles.todo} >Todo</span>
             <span className={styles.mode} onClick={handleMode}>{mode?<Sun/>:<Moon/>}</span>
         </div>
