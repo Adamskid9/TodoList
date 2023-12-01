@@ -6,18 +6,13 @@ import styles from './App.module.css'
 import Footer from "./components/Footer";
 import CopyRight from "./components/CopyRight";
 import GlowEffect from "./components/GlowEffect";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Test from "./components/Test";
 
 
 
 function App() {
 
   return (
-    <BrowserRouter>
-    <Routes>   
-      <Route index element={
-            <div>
+    <div>
     <div className={styles.app}>
       <GlowEffect top={20} left={20}/>
       <main>
@@ -31,11 +26,6 @@ function App() {
     </div>
     
     </div>
-      } />
-      <Route path="test" element={<Test/>}/>
-
-    </Routes>
-    </BrowserRouter>
   )
 }
 
